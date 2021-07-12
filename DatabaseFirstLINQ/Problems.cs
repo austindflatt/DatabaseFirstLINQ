@@ -15,8 +15,8 @@ namespace DatabaseFirstLINQ
         }
         public void RunLINQQueries()
         {
-            //ProblemOne();
-            //ProblemTwo();
+            ProblemOne();
+            ProblemTwo();
             //ProblemThree();
             //ProblemFour();
             //ProblemFive();
@@ -40,8 +40,11 @@ namespace DatabaseFirstLINQ
         // <><><><><><><><> R Actions (Read) <><><><><><><><><>
         private void ProblemOne()
         {
-            // Write a LINQ query that returns the number of users in the Users table.
-            // HINT: .ToList().Count
+            int users = _context.Users.ToList().Count;
+
+            {
+                Console.WriteLine(users);
+            }
 
         }
 
