@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "DatabaseFirstLINQ": {
+      "commandName": "Project",
+      "sqlDebugging": false,
+      "nativeDebugging": false
+    },
+    "WSL 2": {
+      "commandName": "WSL2",
+      "distributionName": ""
+    }
+  }
+}
